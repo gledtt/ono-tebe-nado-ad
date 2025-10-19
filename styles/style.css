@@ -2,6 +2,7 @@
     margin:0;
     padding:0;    
 }
+
 header
 {
     display: grid;
@@ -142,6 +143,7 @@ h1
 {
     margin:0px 24px 120px 24px;
 }
+
 .lots__card-list
 {
     display: flex;
