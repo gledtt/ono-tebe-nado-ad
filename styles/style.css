@@ -23,7 +23,7 @@ header
     border-bottom: 1px solid currentColor;
 }
 
-.header__link_active
+.header__link_active, .footer_link_active
 {
     list-style-type: none; 
     text-decoration: none;
@@ -37,7 +37,7 @@ header
     list-style-type: circle; 
 }
 
-.menu_address
+.address
 {
     margin-top:3px;
 }
@@ -46,7 +46,6 @@ header
 {
     list-style-type: none;
     font-weight: 400;
-    font-style: Regular;
     line-height: 24.3px;
     max-width:240px;
     justify-self:end;
@@ -114,7 +113,6 @@ h1
 .letter-spacing-extended
 {
     font-weight: 400;
-    font-style: Regular;
     font-size: 22px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
@@ -197,7 +195,6 @@ h1
 .card__text
 {
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
     line-height: 120%;
     color: rgba(255, 255, 255, 1);
@@ -229,4 +226,99 @@ h1
 .lots__look-more-link
 {
     margin-left: 40px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 334px 2fr;
+    gap: 25px;
+    align-items: start;
+    margin:0px 24px 180px 24px;
+}
+
+.about__logo
+{
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px auto 320px; 
+}
+
+.about__logo-image
+{
+    height: 100%;
+    width: 148px;
+}
+
+.about__title
+{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom:100px;
+    margin-top:133px;
+}
+
+.about__text
+{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.first__paragraph
+{
+    margin-bottom:24px;
+}
+
+.footer
+{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;  
+    align-items: center;
+    padding-bottom: 82px;
+}
+
+.footer__menu, .nav_footer_menu, .footer__social-list
+{
+    list-style-type: none;
+}
+
+.footer__social-icon
+{
+    height: 48px;
+    width: 48px;
+}
+
+.footer__social-list
+{
+    display: flex;
+    gap:48px;
+}
+
+.address_footer
+{
+    margin-left:50px;
+}
+
+.nav_footer
+{
+    margin:0 auto;
+    display: grid;
+    align-content: center;
+}
+
+.nav_footer
+{
+    justify-content:center;
+}
+
+.footer__social-list
+{   
+    margin:0 auto;
 }
