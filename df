@@ -1,0 +1,29 @@
+[33mcommit acb175e58eb308d0313f73663bb11e912e90f907[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: gled <gleb.tretyakov.2017@mail.ru>
+Date:   Sun Oct 19 23:25:37 2025 +0500
+
+    README.md
+
+[33mcommit af0b346fa66c0a8aa95486a737bd52b8e092524b[m
+Author: gled <gleb.tretyakov.2017@mail.ru>
+Date:   Sun Oct 19 23:21:52 2025 +0500
+
+    секция об аукционе и подвал сайта
+
+[33mcommit 21edb7a58a9521365efc4462aa5fcda0bc57fd8a[m
+Author: gled <gleb.tretyakov.2017@mail.ru>
+Date:   Sun Oct 19 21:06:56 2025 +0500
+
+    сделана шапка, секция обложки и секция с карточками
+
+[33mcommit bc8f20a1f2e520471b14497102a62d4e37a62770[m
+Author: gled <gleb.tretyakov.2017@mail.ru>
+Date:   Sat Oct 18 22:43:15 2025 +0500
+
+    Верстка структуры
+
+[33mcommit 04f33a722dcd7293633538a6a314e38413d109eb[m
+Author: gledtt <gleb.tretyakov.2017@mail.ru>
+Date:   Sat Oct 18 21:17:25 2025 +0500
+
+    Initial commit
