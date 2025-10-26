@@ -8,6 +8,7 @@ header {
     padding: 92px 50px 96px 50px;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
+    justify-items: center;
     height: 293px;
 }
 
@@ -15,6 +16,10 @@ header {
     display: block;
     height: 100%;
     width: 148px;
+}
+
+address {
+    font-style: normal;
 }
 
 .underline_item {
@@ -38,7 +43,7 @@ header {
     font-weight: 400;
     line-height: 24.3px;
     max-width:240px;
-    justify-self:end;
+    justify-self: end;
 }
 
 .li_underline {
@@ -74,11 +79,13 @@ h1 {
 
 .aligned-text {
     display: block;
+    margin-bottom: 20px;
 }
 
 .aligned-text_center {
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .aligned-text_right {
@@ -90,10 +97,7 @@ h1 {
 .aligned-text_center,
 .aligned-text_right {
   letter-spacing: 28px;
-  font-family: Raleway;
   font-size: 100px;
-  line-height: 114.99999999999999%;
-  letter-spacing: 30%;
 }
 
 .overlay {
@@ -151,7 +155,7 @@ h1 {
 
 .lots__card-list-item {
     width: 334px;
-    min-height: 596px;    
+    min-height: 596px;
     position: relative;
     padding:48px 40px;
 }
@@ -222,7 +226,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 35px auto 320px;
+    margin: 35px auto 295px;
 }
 
 .about__logo-image {
@@ -236,7 +240,7 @@ h1 {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom:100px;
-    margin-top:133px;
+    margin-top:136px;
 }
 
 .about__text {
@@ -247,17 +251,17 @@ h1 {
 
 .first__paragraph {
     margin-bottom:24px;
+    padding-right: 5px;
 }
 
 .footer {
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;  
+    grid-template-columns:  1fr 1fr 1fr;
     align-items: center;
     padding-bottom: 82px;
     font-size: 18px;
     line-height: 24.3px;
 }
-
 
 .footer__menu, .nav_footer_menu, .footer__social-list {
     list-style-type: none;
@@ -281,6 +285,5 @@ h1 {
 .nav_footer {
     margin:0 auto;
     display: grid;
-    align-content: center;
     text-align: center;
 }
